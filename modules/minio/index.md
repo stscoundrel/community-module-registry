@@ -62,7 +62,7 @@ docs:
     maintainer: core
     example: |
       ```javascript
-     const container = await new MinioContainer("minio/minio:RELEASE.2024-12-13T22-19-12Z").start();
+      const container = await new MinioContainer("minio/minio:RELEASE.2024-12-13T22-19-12Z").start();
       ```
     installation: |
       ```bash
